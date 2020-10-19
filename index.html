@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .bg-img {
+        /* The image used */
+        background-image: url("disc4.png");
+        min-height: 600px;
+        min-width: 500px;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /*position: relative;*/
+        position: center;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Verdana, sans-serif;
+    }
+    
+    .mySlides {
+        display: none;
+        text-decoration-color: black;
+    }
+    
+    img {
+        vertical-align: middle;
+        opacity: 1;
+    }
+    /* Slideshow container */
+    
+    .slideshow-container {
+        /* max-width: 1000px;
+            /*position: center;*/
+        margin-left: auto;
+        margin-right: auto;
+        max-height: fit-content;
+        position: relative;
+    }
+    
+    .head-container {
+        /* max-width: 1000px;
+            /*position: center;*/
+        /* margin-left: 500px;*/
+        margin-right: auto;
+        max-height: 100px;
+        position: relative;
+        background-color: chartreuse;
+    }
+    
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+    /* Number text (1/3 etc) */
+    
+    .numbertext {
+        color: brown;
+        font-size: 20px;
+        padding: 8px 12px;
+        position: relative;
+        /*top: 0;*/
+    }
+    /* The dots/bullets/indicators */
+    
+    .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    
+    .active {
+        background-color: #717171;
+    }
+    /* Fading animation */
+    
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    
+    p:second-letter {
+        display: inline;
+        float: right;
+        color: indigo;
+    }
+    
+    @-webkit-keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    /* On smaller screens, decrease text size */
+    
+    @media only screen and (max-width: 300px) {
+        .text {
+            font-size: 11px
+        }
+    }
+</style>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container p-3  my-3 border; display: inline;">
+        <img src="graduate.png" height="50" width="50">
+        <p style="font-size: xx-large; font-weight: bolder; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  color: cornflowerblue; display: inline;">Writer's-Hub</p>
+<form action = "registration.php" method="post"> login</form>
+
+        <A HREF style="font-size: large; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  color: cornflowerblue; display: inline; float:right; ">Log-in </A>
+
+        <A HREF style="font-size: large; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  color: cornflowerblue; display: inline; float:right; ">Sign in/</A>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="disc2.png" style="width:100%" height="500dp">
+                <div class="text" style="font-weight: bolder; font-size: x-large; color: cornsilk;">TIMELY DELIVERY</div>
+                <div class="text" style="font-weight: bolder; font-size: xx-large; color: cornsilk; margin-bottom: 300px;font-family: Arial, Helvetica, sans-serif;background-color: blueviolet; opacity: 0.5; height: fit-content; width:fit-content; margin-left: 300px">YOUR SUCCESS MATTERS</div>
+            </div>;
+
+            <div class="mySlides fade ">
+
+                <img src="disc3.png " style="width:100% " height="500dp ">
+
+                <div class="text " style="font-weight: bolder; font-size: xx-large;color: cornsilk; ">EXEMPLARY SERVICE</div>
+                <div class="text " style="font-weight: bolder; font-size: xx-large; color: cornsilk; margin-bottom: 300px; font-family: Arial, Helvetica, sans-serif;background-color: blueviolet; opacity: 0.5; height: fit-content; width:fit-content; margin-left: 350px">YOUR SUCCESS MATTERS</div>
+            </div>
+
+            <div class="mySlides fade ">
+
+                <img src="disc4.png " style="width:100% " height="500dp ">
+                <div class="text " style="font-weight: bolder; font-size: x-large;color: cornsilk; ">WORLD CLASS STANDARDS</div>
+                <div class="text " style="font-weight: bolder; font-size: xx-large; color: cornsilk; margin-bottom: 300px; font-family: Arial, Helvetica, sans-serif;background-color: blueviolet; opacity: 0.5; height: fit-content; width:fit-content; margin-left: 350px ">YOUR SUCCESS MATTERS</div>
+            </div>
+
+            <div class="mySlides fade ">
+
+                <img src="disc3.png " style="width:100% " height="500dp ">
+                <div class="text " style="font-weight: bolder; font-size: x-large;color: cornsilk; ">BRILLIANCE</div>
+                <div class="text " style="font-weight: bolder; font-size: xx-large; color: cornsilk; margin-bottom: 300px;font-family: Arial, Helvetica, sans-serif; background-color: blueviolet; opacity: 0.5; height: fit-content; width:fit-content; margin-left: 350px">YOUR SUCCESS MATTERS</div>
+            </div>
+            <div class="mySlides fade ">
+
+                <img src="disc4.png " style="width:100% " height="500dp ">
+                <div class="text " style="font-weight: bolder; font-size: x-large;color: cornsilk; ">AFFORDABLE COST</div>
+                <div class="text " style="font-weight: bolder; font-size: xx-large; color: cornsilk; margin-bottom: 300px;font-family: Arial, Helvetica, sans-serif;background-color: blueviolet; opacity: 0.5; height: fit-content; width:fit-content; margin-left: 350px ">YOUR SUCCESS MATTERS</div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div style="text-align:center ">
+        <span class="dot "></span>
+        <span class="dot "></span>
+        <span class="dot "></span>
+        <span class="dot "></span>
+        <span class="dot "></span>
+    </div>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides ");
+            var dots = document.getElementsByClassName("dot ");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none ";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active ", " ");
+            }
+            slides[slideIndex - 1].style.display = "block ";
+            dots[slideIndex - 1].className += " active ";
+            setTimeout(showSlides, 1500); // Change image every 2 seconds
+        }
+    </script>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <p style="font-size: xx-large; font-weight: bolder; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  color: cornflowerblue;"> PLACE ORDERS</p>
+                <a href="place order.html">
+                    <img src="progress.png" class="img-circle" alt="kuku" height="150" width="150">
+                </a>
+
+            </div>
+            <div class="col-sm-4">
+
+                <p style="font-size: xx-large; font-weight: bolder; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  color: cornflowerblue;">RESEARCH</p>
+                <a href="index.php">
+                    <img src="research.png" class="img-circle" alt="kuku" height="130" width="150">
+                </a>
+            </div>
+            <div class="col-sm-4 ">
+                <p style="font-size: xx-large; font-weight: bolder; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  color: cornflowerblue;"> PERFORMANCE</p>
+                <a href="place order.html">
+                    <img src="test1.jpg" class="img-circle" alt="kuku" height="150" width="150">
+                </a>
+                <div>
+
+                </div>
+
+            </div>
+        </div>
+        <hr>
+        <br>
+        <div>
+
+            <h3 style="margin-left: 300px; font-size: large; margin-left: 500px;font-size: xx-large; font-weight: bolder; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  color: cornflowerblue;">About Us</h3>
+            <div class="container bg-primary  ">
+                <p style="margin-left: 300px; font-size: large; ">"A group of researchers and academicians with a passion for delivering quality service "</p>
+                <div class="container ">
+                    <img src="discussion1.png " class="img-circle " alt="kuku " height="300 " width="400 " style="margin-left: 300px; ">
+
+                    <hr>
+                </div>
+            </div>
+            <br>
+            <div>
+
+                <h3 style="margin-left: 300px; font-size:large;font-size: xx-large; font-weight: bolder; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  color: cornflowerblue; margin-left: 500px;">Timely delivery</h3>
+                <div class="container bg-primary">
+                    <p style="margin-left: 300px; font-size: large;">"A group of researchers and academicians with a passion for delivering quality service</p>
+
+                    <img src="progress.png" class="img-circle" alt="kuku" height="300" width="400" style="margin-left: 300px;">
+                    <hr>
+                </div>
+            </div>
+
+            <div>
+                <h3 style="margin-left: 300px; font-size:large;font-size: xx-large; font-weight: bolder; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  color: cornflowerblue; margin-left: 500px;">Testimonials</h3>
+
+                <div class="container p-3 my-3 text-center bg-primary ">
+                    <img src="carsm.jpg" class="img-circle" alt="kuku" height="350" width="350" style="margin-left: 0px;">
+                    <p style=" margin-left: 300px; font-size: x-large; font-weight: bold; color: azure;">Carol Samson Mongina</p>
+                    <p style="font-weight: bolder; font-family: Verdana, Geneva, Tahoma, sans-serif; color: azure;">"They offer exemplary services at affordable prices"</p>
+                </div>
+            </div>
+            <div>
+                <div class="container p-3 my-3 text-center bg-dark">
+                    <p style="color: azure;"> contact us</p>
+                    <img src="whatsappi.jpg" class="img-circle" alt="kuku" height="50" width="50" style="margin-left: 0px;">
+                    <img src="mail.png" class="img-circle" alt="kuku" height="50" width="50" style="margin-left: 0px;">
+
+                </div>
+            </div>
+
+</body>
+
+</html>
